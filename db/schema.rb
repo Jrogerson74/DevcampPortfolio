@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20170413223620) do
 
   create_table "skills", force: :cascade do |t|
     t.string   "title"
-    t.integer  "percen_utilized"
+    t.integer  "percent_utilized"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
